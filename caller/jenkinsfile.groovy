@@ -8,8 +8,7 @@ node { //allocates a Jenkins executor and the workspace for the Pipeline
                 responder = load 'responder/responder.groovy' //assign the second groovy file to
 the defined variable with the command "load"
                         println responder //prints the variable
-                        responder.hello('hi') // loads the second groovy file and executes the function
-"hello" sending as a parameter the value "hi"
+                        responder.hello('hi') // loads the second groovy file and executes the function "hello" sending as a parameter the value "hi"
                 } catch (Exception err){ //using try/catch structure to get the errors
                         println err
                 }
