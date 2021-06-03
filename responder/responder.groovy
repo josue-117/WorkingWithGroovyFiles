@@ -7,4 +7,4 @@ responder file!"
                 println 'wzup'
         }
 }
-return this; //returs the output of the execution of the function
+return this; //returns the output of the execution of the function
